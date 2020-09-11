@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homeloans">
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Home Loan "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/idtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/idtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/idtext3"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Types of Home Loan ?"
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="270dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="270dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Home Purchase Loan"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/newarrow3"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <TextView
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text="@string/message"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:id="@+id/idType1"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Home Improvement Loan"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/newarrow3"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <TextView
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text="@string/message"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:id="@+id/idType2"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Home Construction Loan"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/newarrow3"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <TextView
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text="@string/message"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:id="@+id/idType3"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Land Purchase Loan"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/newarrow3"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <TextView
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text="@string/message"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:id="@+id/idType4"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Home Extension Loan"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/newarrow3"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <TextView
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text="@string/message"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:id="@+id/idType5"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Joint Home Loan"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/newarrow3"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <TextView
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text="@string/message"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:id="@+id/idType6"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Home Loan Balance Transfer"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/newarrow3"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <TextView
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text="@string/message"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:id="@+id/idType7"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="22dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Top Up Home Loan"
+            android:textSize="16dp"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_gravity="top"
+                android:padding="6dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/newarrow3"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <TextView
+                android:layout_margin="7dp"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:text="@string/message"
+                android:typeface="serif"
+                android:layout_gravity="center"
+                android:id="@+id/idType8"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+   <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Business Loan "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/BLidtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/BLidtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/BLidtext3"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Car Loan "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/CLidtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/CLidtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/CLidtext3"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Small Cash "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/SCidtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/SCidtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/SCidtext3"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Education Loan "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/ELidtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/ELidtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Personal Loan "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/PLidtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/PLidtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="center"
+        android:id="@+id/idhelp"
+        android:textSize="14dp"
+        android:layout_marginLeft="22dp"
+        android:layout_width="240dp"
+        android:text="happy to help you"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
+    </ScrollView>

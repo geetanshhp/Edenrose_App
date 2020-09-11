@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Credit Card "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/CCidtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/CCidtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Investment "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/inverstmentidtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/invertmentidtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Insurance  "
+        android:textSize="22dp"
+        android:typeface="serif"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+    </View>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/Iidtext1"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="top"
+            android:padding="6dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/newarrow3"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_margin="7dp"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:text="@string/message"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:id="@+id/Iidtext2"
+            android:textColor="@color/colorPrimary"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
